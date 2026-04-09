@@ -16,12 +16,12 @@ export default function Contact() {
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              className="text-4xl md:text-6xl font-black mb-8 leading-tight"
+              className="text-4xl md:text-6xl font-black mb-12 leading-tight"
             >
               FIND US <span className="text-neon">HERE</span>
             </motion.h2>
             
-            <div className="space-y-8 mb-12">
+            <div className="space-y-8 mb-[72px]">
               <div className="flex gap-6">
                 <div className="w-14 h-14 bg-neon/10 rounded-2xl flex items-center justify-center text-neon flex-shrink-0">
                   <MapPin size={28} />

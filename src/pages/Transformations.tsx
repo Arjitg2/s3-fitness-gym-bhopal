@@ -32,18 +32,18 @@ export default function Transformations() {
   return (
     <div className="min-h-screen bg-black pt-24 md:pt-32 pb-16 md:pb-24">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-20">
+        <div className="text-center mb-[120px]">
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="text-neon font-bold tracking-widest uppercase mb-4"
+            className="text-neon font-bold tracking-widest uppercase mb-6"
           >
             REAL PEOPLE, REAL RESULTS
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-5xl md:text-7xl font-black mb-6 tracking-tight leading-none"
+            className="text-5xl md:text-7xl font-black mb-[36px] tracking-tight leading-none"
           >
             SUCCESS <span className="text-neon">STORIES</span>
           </motion.h1>
