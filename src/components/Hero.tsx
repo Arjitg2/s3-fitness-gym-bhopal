@@ -5,7 +5,7 @@ import JoinNowModal from "@/components/JoinNowModal";
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center pt-32 md:pt-40 overflow-hidden">
       {/* Background with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
@@ -24,7 +24,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="flex items-center gap-2 mb-8"
+            className="flex items-center gap-2 mb-6"
           >
             <div className="flex text-neon">
               {[...Array(5)].map((_, i) => (
@@ -40,7 +40,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-5xl md:text-[5.5rem] lg:text-9xl font-black leading-[1.1] mb-8 text-white tracking-wider uppercase"
+            className="text-5xl md:text-7xl lg:text-[7.5rem] font-black leading-[1.05] mb-6 text-white tracking-wider uppercase"
           >
             Transform <br />
             <span className="text-neon">body and mind</span> <br />
@@ -51,7 +51,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="mb-12 space-y-4"
+            className="mb-8 space-y-4"
           >
             <p className="text-xl md:text-2xl text-white/90 font-medium max-w-2xl">
               Bhopal's premier 3,200 sq. ft. facility with 47+ imported machines.
