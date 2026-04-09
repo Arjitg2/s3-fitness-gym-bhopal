@@ -43,7 +43,7 @@ export default function Transformations() {
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-5xl md:text-7xl font-black mb-6 tracking-tighter"
+            className="text-5xl md:text-7xl font-black mb-6 tracking-tight leading-none"
           >
             SUCCESS <span className="text-neon">STORIES</span>
           </motion.h1>
