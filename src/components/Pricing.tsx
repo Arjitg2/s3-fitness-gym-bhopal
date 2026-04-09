@@ -32,11 +32,11 @@ export default function Pricing() {
   return (
     <section id="pricing" className="py-16 md:py-24 bg-charcoal">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-24">
+        <div className="text-center mb-16">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-6xl font-black mb-[36px]"
+            className="text-4xl md:text-6xl font-black mb-6"
           >
             MEMBERSHIP <span className="text-neon">PLANS</span>
           </motion.h2>

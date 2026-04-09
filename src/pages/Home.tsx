@@ -26,10 +26,10 @@ export default function Home() {
         {/* CTA Section */}
         <section className="py-16 md:py-24 bg-neon text-black overflow-hidden relative">
           <div className="container mx-auto px-4 relative z-10 text-center">
-            <h2 className="text-5xl md:text-8xl font-black mb-12 tracking-tight leading-none">
+            <h2 className="text-6xl md:text-[8rem] lg:text-[10rem] font-black mb-8 tracking-wider leading-[1.1]">
               START YOUR FITNESS <br /> JOURNEY TODAY
             </h2>
-            <div className="flex flex-col sm:flex-row justify-center gap-6 mt-[72px]">
+            <div className="flex flex-col sm:flex-row justify-center gap-6 mt-12">
               <JoinNowModal>
                 <button className="bg-black text-white hover:bg-black/90 font-black text-xl py-6 px-12 rounded-2xl transition-all shadow-2xl">
                   BOOK FREE TRIAL

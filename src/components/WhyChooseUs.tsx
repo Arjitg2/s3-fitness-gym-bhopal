@@ -43,18 +43,18 @@ export default function WhyChooseUs() {
             <motion.p
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              className="text-neon font-bold tracking-widest uppercase mb-6"
+              className="text-neon font-bold tracking-widest uppercase mb-4"
             >
               WHY CHOOSE S3 FITNESS
             </motion.p>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              className="text-4xl md:text-6xl font-black mb-12 leading-tight"
+              className="text-4xl md:text-6xl font-black mb-8 leading-tight"
             >
               WE ARE MORE THAN JUST A <span className="text-neon">GYM</span>
             </motion.h2>
-            <p className="text-white/60 text-lg mb-[72px] leading-relaxed">
+            <p className="text-white/60 text-lg mb-12 leading-relaxed">
               At S3 Fitness Gym, we believe in providing a holistic fitness experience. From the moment you walk in, you'll feel the energy and commitment to excellence that sets us apart.
             </p>
 

@@ -46,18 +46,18 @@ export default function Services() {
     <section id="services" className="py-16 md:py-24 bg-black relative">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-neon/5 via-transparent to-transparent"></div>
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center mb-24">
+        <div className="text-center mb-16">
           <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            className="text-neon font-bold tracking-widest uppercase mb-6"
+            className="text-neon font-bold tracking-widest uppercase mb-4"
           >
             OUR SPECIALTIES
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-6xl font-black mb-[36px]"
+            className="text-4xl md:text-6xl font-black mb-6"
           >
             PUSH YOUR <span className="text-neon">LIMITS</span>
           </motion.h2>

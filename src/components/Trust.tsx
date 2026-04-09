@@ -25,9 +25,9 @@ export default function Trust() {
     <section className="py-16 md:py-24 bg-charcoal relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-neon/5 via-transparent to-transparent"></div>
       <div className="container mx-auto px-4 relative z-10">
-        <div className="flex flex-col md:flex-row items-end justify-between mb-24 gap-8">
+        <div className="flex flex-col md:flex-row items-end justify-between mb-16 gap-8">
           <div className="max-w-2xl">
-            <h2 className="text-4xl md:text-6xl font-black mb-[36px] leading-tight">
+            <h2 className="text-4xl md:text-6xl font-black mb-6 leading-tight">
               TRUSTED BY <span className="text-neon">1000+</span> <br />FITNESS ENTHUSIASTS
             </h2>
             <p className="text-white/60 text-lg">
