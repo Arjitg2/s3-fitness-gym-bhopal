@@ -40,7 +40,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-4xl md:text-6xl lg:text-7xl font-black leading-[1.1] mb-4 text-white tracking-wider uppercase"
+            className="text-5xl md:text-7xl lg:text-[6.5rem] font-black leading-[1.05] mb-4 text-white tracking-wider uppercase"
           >
             Transform <br />
             <span className="text-neon">body and mind</span> <br />
