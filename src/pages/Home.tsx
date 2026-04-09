@@ -26,7 +26,7 @@ export default function Home() {
         {/* CTA Section */}
         <section className="py-16 md:py-24 bg-neon text-black overflow-hidden relative">
           <div className="container mx-auto px-4 relative z-10 text-center">
-            <h2 className="text-5xl md:text-8xl font-black mb-8 tracking-tighter leading-[0.8]">
+            <h2 className="text-5xl md:text-8xl font-black mb-8 tracking-tight leading-none">
               START YOUR FITNESS <br /> JOURNEY TODAY
             </h2>
             <div className="flex flex-col sm:flex-row justify-center gap-6 mt-12">
