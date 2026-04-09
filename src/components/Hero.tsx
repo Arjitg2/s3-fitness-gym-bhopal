@@ -5,7 +5,7 @@ import JoinNowModal from "@/components/JoinNowModal";
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-screen flex items-center pt-32 md:pt-40 overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center pt-24 md:pt-32 overflow-hidden">
       {/* Background with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
@@ -24,14 +24,14 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="flex items-center gap-2 mb-6"
+            className="flex items-center gap-2 mb-3"
           >
             <div className="flex text-neon">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} size={18} fill="currentColor" />
               ))}
             </div>
-            <span className="text-neon font-bold tracking-widest text-sm uppercase">
+            <span className="text-neon font-bold tracking-widest text-xs uppercase">
               5.0 RATING (78+ REVIEWS)
             </span>
           </motion.div>
@@ -40,7 +40,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-5xl md:text-7xl lg:text-[7.5rem] font-black leading-[1.05] mb-6 text-white tracking-wider uppercase"
+            className="text-4xl md:text-6xl lg:text-7xl font-black leading-[1.1] mb-4 text-white tracking-wider uppercase"
           >
             Transform <br />
             <span className="text-neon">body and mind</span> <br />
@@ -51,17 +51,17 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="mb-8 space-y-4"
+            className="mb-6 space-y-4"
           >
-            <p className="text-xl md:text-2xl text-white/90 font-medium max-w-2xl">
+            <p className="text-lg md:text-xl text-white/90 font-medium max-w-2xl">
               Bhopal's premier 3,200 sq. ft. facility with 47+ imported machines.
             </p>
-            <div className="flex flex-col gap-3">
-              <div className="flex items-center gap-3 text-white/70 text-lg">
+            <div className="flex flex-col gap-2">
+              <div className="flex items-center gap-3 text-white/70 text-base">
                 <div className="w-2 h-2 bg-neon rounded-full shadow-neon" />
                 <span>Monday to Saturday, 6 AM – 10 PM.</span>
               </div>
-              <div className="flex items-center gap-3 text-neon font-black uppercase tracking-widest text-sm">
+              <div className="flex items-center gap-3 text-neon font-black uppercase tracking-widest text-xs">
                 <div className="w-2 h-2 bg-neon rounded-full shadow-neon animate-pulse" />
                 <span>Monsoon offer ends Sunday</span>
               </div>
